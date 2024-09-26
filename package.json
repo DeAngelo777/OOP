@@ -1,0 +1,18 @@
+{
+  "name": "op",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js localhost:5150",
+    "static": "node --watch static.js localhost:5150",
+    "animal": "node --watch animal-world.js localhost:5150",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^0.0.1"
+  }
+}
